@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [color, setColor] = useState("#000000");
@@ -16,8 +16,6 @@ function App() {
     margin: "0 auto",
     display: "block",
   };
-
-  console.log(color);
 
   const switchColor = () => {
     let str = "abcdef0123456789";
